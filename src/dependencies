@@ -1,0 +1,4 @@
+Snake.o: Snake.cc define.h data_structure.h init_object.h collision.h
+collision.o: collision.cc define.h data_structure.h init_object.h \
+ collision.h
+init_object.o: init_object.cc define.h data_structure.h init_object.h
